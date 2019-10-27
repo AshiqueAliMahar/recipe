@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sfg_prod
+    username: root
+    password: hp15p251nz
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
